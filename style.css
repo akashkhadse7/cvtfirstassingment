@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color:   #FFCD9E;
+    height: 67vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 40px;
+}
+
+.box1{
+    position: relative;
+    top: 0px;
+    width: 480px;
+    margin-left: 80px;
+    /* background-color: blueviolet; */
+}
+.box2{
+
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 7px;
+}
+.box2 img{
+    /* position: relative; */
+    width: 400px;
+    height: 400;
+}
+
+.box1 h1{
+    position: relative;
+    top: 40px;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 40px;
+    word-spacing: 2px;
+    font-family: 'Inter';
+}
+
+.box1 p{
+    color: #484848;
+    height: 30px;
+    position: relative;
+    top: 60px;
+    font-weight: 500;
+    font-size:20px;
+    line-height: 32px;
+    word-spacing: 2px;
+}
+
+.showme{
+    color:#282828;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+input{
+    margin-top:90px;
+    height: 40px;
+    width:250px;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 19px;
+
+}
+
+button{
+   position: absolute;
+   margin-top: 90px;
+   margin-left: 30px;
+   height: 40px;
+   width: 150px;
+   border-radius: 8px;
+   background-color:#282828;
+   color:white;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.share{
+    width: 300px;
+    height: 50px;
+    padding-top: 8px;
+    /* margin-top: 5px; */
+   margin-left: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 25.6px; */
+}
+
+footer{
+    margin: 0px;
+    /* height: 230px; */
+}
+.footcontain{
+    background-color: black;
+    /* height: vh; */
+    /* width: 100wv; */
+    display: flex;
+}
+.leftfoot{
+
+    width: 50%;
+    height: 40vh;
+}
+
+.leftfoot ul{
+    position: relative;
+    margin-left: 191px;
+    top:30px;
+}
+li{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 7px;
+    list-style-type: none;
+}
+
+.rightfoot{
+ text-align: right;
+height: 40vh;
+}
+
+.rightfoot ul{
+    position: relative;
+    margin-left: 330px;
+    top:30px;
+    font-size: 16px;
+    padding-top: 11px;
+}
+
+.mailto{
+    padding-top: 20px;
+}
